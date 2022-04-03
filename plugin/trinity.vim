@@ -100,7 +100,7 @@ function! <SID>Trinity_InitTagList()
     " Split to the right side of the screen
     let g:Tlist_Use_Left_Window = 1
     " Set the window width
-    let g:Tlist_WinWidth = 40
+    let g:Tlist_WinWidth = 32
     " Sort by the order
     let g:Tlist_Sort_Type = "order"
     " Do not display the help info
@@ -124,7 +124,7 @@ function! <SID>Trinity_InitSourceExplorer()
 
     " // Set the height of Source Explorer window                                  "
     if has("unix")
-        let g:SrcExpl_winHeight = 13
+        let g:SrcExpl_winHeight = 8
     else
         let g:SrcExpl_winHeight = 8
     endif
@@ -169,7 +169,7 @@ function! <SID>Trinity_InitNERDTree()
     " Set the window width
     let g:NERDTreeWinSize = 23
     " Set the window position
-    let g:NERDTreeWinPos = "right"
+    let g:NERDTreeWinPos = "left"
     " Auto centre
     let g:NERDTreeAutoCenter = 0
     " Not Highlight the cursor line
